@@ -1,0 +1,3 @@
+/Users/seanlee/CLionProjects/BasicAlgoLecture/cmake-build-debug/CMakeFiles/BasicAlgoLecture.dir
+/Users/seanlee/CLionProjects/BasicAlgoLecture/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/seanlee/CLionProjects/BasicAlgoLecture/cmake-build-debug/CMakeFiles/rebuild_cache.dir
