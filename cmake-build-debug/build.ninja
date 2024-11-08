@@ -133,6 +133,37 @@ build 1000: CXX_EXECUTABLE_LINKER__1000_Debug CMakeFiles/1000.dir/0x02/1000.cpp.
   TARGET_FILE = 1000
   TARGET_PDB = 1000.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 10804
+
+
+#############################################
+# Order-only phony target for 10804
+
+build cmake_object_order_depends_target_10804: phony || .
+
+build CMakeFiles/10804.dir/0x02/10804.cpp.o: CXX_COMPILER__10804_unscanned_Debug /Users/seanlee/CLionProjects/BasicAlgoLecture/0x02/10804.cpp || cmake_object_order_depends_target_10804
+  DEP_FILE = CMakeFiles/10804.dir/0x02/10804.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/10804.dir
+  OBJECT_FILE_DIR = CMakeFiles/10804.dir/0x02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10804
+
+
+#############################################
+# Link the executable 10804
+
+build 10804: CXX_EXECUTABLE_LINKER__10804_Debug CMakeFiles/10804.dir/0x02/10804.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/10804.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10804
+  TARGET_PDB = 10804.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/seanlee/CLionProjects/BasicAlgoLecture/cmake-build-debug
 
-build all: phony BasicAlgoLecture 10871 1000
+build all: phony BasicAlgoLecture 10871 1000 10804
 
 # =============================================================================
 # Built-in targets

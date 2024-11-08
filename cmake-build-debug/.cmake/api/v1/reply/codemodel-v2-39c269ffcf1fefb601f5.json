@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BasicAlgoLecture",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1000::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1000-Debug-a4a1446ff42d21668daa.json",
+					"name" : "1000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10804::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10804-Debug-5d3d940a86b0239ed8a5.json",
+					"name" : "10804",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10871::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10871-Debug-9918a01c0fd01ad3d841.json",
+					"name" : "10871",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BasicAlgoLecture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BasicAlgoLecture-Debug-fe4f5fe68b92e967e53e.json",
+					"name" : "BasicAlgoLecture",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/seanlee/CLionProjects/BasicAlgoLecture/cmake-build-debug",
+		"source" : "/Users/seanlee/CLionProjects/BasicAlgoLecture"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
